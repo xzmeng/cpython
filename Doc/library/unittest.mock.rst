@@ -552,7 +552,7 @@ the *new_callable* argument to :func:`patch`.
         an iterable or an exception (class or instance) to be raised.
 
         If you pass in a function it will be called with same arguments as the
-        mock and unless the function returns the :data:`DEFAULT` singleton the
+        mock and unless the function returns the :data:`DEFAULT` singleton, the
         call to the mock will then return whatever the function returns. If the
         function returns :data:`DEFAULT` then the mock will return its normal
         value (from the :attr:`return_value`).
